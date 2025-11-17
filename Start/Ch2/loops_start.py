@@ -15,13 +15,20 @@ x = 0
 #   answer = input("Should I stop?")
 
 # define a for loop
-days = ["Mon", "Tues", "Wed", "Thurs", "Fri", "Sat", "Sun"]
-for d in days:
-  print(d)
+days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+# for d in days:
+#   print(d)
+
 # use a for loop over a collection
 
 
 # use the break and continue statements
+# for d in days:
+#   if (d == "Thu"):
+#     continue
+#   print(d)
 
 
 # using the enumerate() function to get an index and an item
+for i, d in enumerate(days):
+  print(i, d)
